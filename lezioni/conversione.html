@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="it">
+<body>
+
+<p id="par1"></p>
+<p id="par2"></p>
+<p id="par3"></p>
+
+<script>
+   const stringaJSON = '{"nome":"Paolo","eta":"26","citta":"Verona"}';
+   const oggettoJSON = JSON.parse(stringaJSON);
+   document.getElementById("par1").innerHTML = oggettoJSON.nome;
+   document.getElementById("par2").innerHTML = oggettoJSON.eta;
+   document.getElementById("par3").innerHTML = oggettoJSON.citta;
+</script>
+</body>
+</html>

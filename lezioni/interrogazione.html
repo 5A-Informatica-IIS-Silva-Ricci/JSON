@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Interrogazione</title>
+
+   <script type="application/javascript">
+      function stampa(x) {
+         document.open()
+         const db = {
+            "studenti": [
+               {
+                  "studente": {
+                     "nome": "Filippo",
+                     "cognome": "Neri",
+                     "_cdl": "LM-33",
+                     "_matr": "2837",
+                     "esami": [
+                        {
+                           "materia": "Scienze delle finanze",
+                           "voto": "28",
+                           "data": {
+                              "giorno": "13/",
+                              "mese": "12/",
+                              "anno": "2019"
+                           }
+                        },
+                        {
+                           "materia": "Economia politica",
+                           "voto": "25",
+                           "data": {
+                              "giorno": "09/",
+                              "mese": "01/",
+                              "anno": "2020"
+                           }
+                        },
+                        {
+                           "materia": "Ragioneria generale",
+                           "voto": "27",
+                           "data": {
+                              "giorno": "02/",
+                              "mese": "02/",
+                              "anno": "2020"
+                           }
+                        }
+                     ]
+                  }
+               },
+               {
+                  "studente": {
+                     "nome": "Franco",
+                     "cognome": "Sero",
+                     "_cdl": "L-54",
+                     "_matr": "8372",
+                     "esami": [
+                        {
+                           "materia": "Storia dell'arte",
+                           "voto": "30",
+                           "data": {
+                              "giorno": "05/",
+                              "mese": "04/",
+                              "anno": "2020"
+                           }
+                        },
+                        {
+                           "materia": "Teatro russo",
+                           "voto": "25",
+                           "data": {
+                              "giorno": "09/",
+                              "mese": "03/",
+                              "anno": "2020"
+                           }
+                        },
+                        {
+                           "materia": "Grafica",
+                           "voto": "23",
+                           "data": {
+                              "giorno": "07/",
+                              "mese": "05/",
+                              "anno": "2020"
+                           }
+                        },
+                        {
+                           "materia": "Arte moderna",
+                           "voto": "26",
+                           "data": {
+                              "giorno": "28/",
+                              "mese": "04/",
+                              "anno": "2020"
+                           }
+                        }
+                     ]
+                  }
+               },
+               {
+                  "studente": {
+                     "nome": "Alice",
+                     "cognome": "Taiola",
+                     "_cdl": "L-29",
+                     "_matr": "3543",
+                     "esami": [
+                        {
+                           "materia": "Chimica organica",
+                           "voto": "25",
+                           "data": {
+                              "giorno": "12/",
+                              "mese": "01/",
+                              "anno": "2020"
+                           }
+                        },
+                        {
+                           "materia": "Anatomia patologica",
+                           "voto": "29",
+                           "data": {
+                              "giorno": "25/",
+                              "mese": "01/",
+                              "anno": "2020"
+                           }
+                        },
+                        {
+                           "materia": "Microbiologia",
+                           "voto": "30",
+                           "data": {
+                              "giorno": "07/",
+                              "mese": "03/",
+                              "anno": "2020"
+                           }
+                        }
+                     ]
+                  }
+               }]
+         };
+         document.write("<h3>Database studenti</h3>");
+         document.write("<h3>Accesso al database studenti: " + x + ": " + db.studenti[x - 1].studente.cognome + "</h3>");
+         document.close();
+      };
+   </script>
+</head>
+<body>
+<script type="application/javascript">
+   let x = 0;
+   while ((parseInt(x) < 1 || parseInt(x) > 3)) {
+      x = prompt("Inserisci il numero dello studente che vuoi visualizzare");
+
+      if ((parseInt(x) < 1) || (parseInt(x) > 3))
+         alert("Lo studente non esiste. Scegliere un numero compreso tra 1 e 3");
+      else
+         stampa(parseInt(x));
+   }
+</script>
+</body>
+</html>

@@ -1,0 +1,1006 @@
+{
+   "Europa": [
+     {
+       "Italia": [
+         {
+           "regioni": [
+             {
+               "Lombardia": {
+                 "capoluogo": "Milano"
+               },
+               "Lazio": {
+                 "capoluogo": "Milano"
+               },
+               "Campania": {
+                 "capoluogo": "Napoli"
+               },
+               "Sicilia": {
+                 "capoluogo": "Palermo"
+               },
+               "Veneto": {
+                 "capoluogo": "Venezia"
+               },
+               "Emilia-Romagna": {
+                 "capoluogo": "Bologna"
+               },
+               "Piemonte": {
+                 "capoluogo": "Torino"
+               },
+               "Puglia": {
+                 "capoluogo": "Bari"
+               },
+               "Toscana": {
+                 "capoluogo": "Firenze"
+               },
+               "Calabria": {
+                 "capoluogo": "Catanzaro"
+               },
+               "Sardegna": {
+                 "capoluogo": "Cagliari"
+               },
+               "Liguria": {
+                 "capoluogo": "Genova"
+               },
+               "Marche": {
+                 "capoluogo": "Ancona"
+               },
+               "Abruzzo": {
+                 "capoluogo": "L'Aquila"
+               },
+               "Friuli-Venezia-Giulia": {
+                 "capoluogo": "Trieste"
+               },
+               "Trentino-Alto Adige": {
+                 "capoluogo": "Trento"
+               },
+               "Umbria": {
+                 "capoluogo": "Perugia"
+               },
+               "Basilicata": {
+                 "capoluogo": "Potenza"
+               },
+               "Molise": {
+                 "capoluogo": "Campobasso"
+               },
+               "Valle d'Aosta": {
+                 "capoluogo": "Aosta"
+               }
+             }
+           ]
+         }
+       ],
+       "Germania": [
+         {
+           "regioni": [
+             {
+               "Nordrhein-Westfalen": {
+                 "capoluogo": "Düsseldorf"
+               },
+               "Bayern": {
+                 "capoluogo": "München"
+               },
+               "Baden-Württemberg": {
+                 "capoluogo": "Stuttgart"
+               },
+               "Niedersachsen": {
+                 "capoluogo": "Wiesbaden"
+               },
+               "Hessen": {
+                 "capoluogo": "Wiesbaden"
+               },
+               "Sachsen": {
+                 "capoluogo": "Dresden"
+               },
+               "Rheinland-Pfalz": {
+                 "capoluogo": "Mainz"
+               },
+               "Berlin": {
+                 "capoluogo": "Berlin"
+               },
+               "Schleswig-Holstein": {
+                 "capoluogo": "Kiel"
+               },
+               "Brandenburg": {
+                 "capoluogo": "Potsdam"
+               },
+               "Sachsen-Anhalt": {
+                 "capoluogo": "Magdeburg"
+               },
+               "Thüringen": {
+                 "capoluogo": "Erfurt"
+               },
+               "Hamburg": {
+                 "capoluogo": "Hamburg"
+               },
+               "Mecklenburg-Vorpommern": {
+                 "capoluogo": "Schwerin"
+               },
+               "Saarland": {
+                 "capoluogo": "Saarbrücken"
+               },
+               "Bremen": {
+                 "capoluogo": "Bremen"
+               }
+             }
+           ]
+         }
+       ],
+       "Francia": [
+         {
+           "regioni": [
+             {
+               "Grand Est": {
+                 "capoluogo": "Strasburgo"
+               },
+               "Nuova Aquitania": {
+                 "capoluogo": "Bordeaux"
+               },
+               "Alvernia-Rodano-Alpi": {
+                 "capoluogo": "Lione"
+               },
+               "Borgogna-Franca Contea": {
+                 "capoluogo": "Digione"
+               },
+               "Bretagna": {
+                 "capoluogo": "Rennes"
+               },
+               "Centro-Valle della Loira": {
+                 "capoluogo": "Orléans"
+               },
+               "Corsica": {
+                 "capoluogo": "Ajaccio"
+               },
+               "Île-de-France": {
+                 "capoluogo": "Parigi"
+               },
+               "Occitania": {
+                 "capoluogo": "Tolosa"
+               },
+               "Alta Francia": {
+                 "capoluogo": "Lilla"
+               },
+               "Normandia": {
+                 "capoluogo": "Rouen"
+               },
+               "Paesi della Loira": {
+                 "capoluogo": "Nantes"
+               },
+               "Provenza-Alpi-Costa Azzurra": {
+                 "capoluogo": "Marsiglia"
+               }
+             }
+           ]
+         }
+       ],
+       "Spagna": [
+         {
+           "regioni": [
+             {
+               "Andalusia": {
+                 "capoluogo": "Siviglia"
+               },
+               "Aragona": {
+                 "capoluogo": "Saragozza"
+               },
+               "Principato delle Asturie": {
+                 "capoluogo": "Oviedo"
+               },
+               " Isole Baleari": {
+                 "capoluogo": "Palma di Maiorca"
+               },
+               "Paesi Baschi": {
+                 "capoluogo": "Nessuna (de iure) Vitoria-Gasteiz (de facto)"
+               },
+               "Canarie": {
+                 "capoluogo": "Santa Cruz de Tenerife e Las Palmas de Gran Canaria"
+               },
+               "Cantabria": {
+                 "capoluogo": "Santander"
+               },
+               "Castiglia-La Mancia": {
+                 "capoluogo": "Toledo"
+               },
+               "Catalogna": {
+                 "capoluogo": "Barcellona"
+               },
+               "Comunità Valenciana": {
+                 "capoluogo": "Valencia"
+               },
+               "Estremadura": {
+                 "capoluogo": "Mérida"
+               },
+               "Galizia": {
+                 "capoluogo": "Santiago de Compostela"
+               },
+               "La Rioja": {
+                 "capoluogo": "Logroño"
+               },
+               "Comunità di Madrid": {
+                 "capoluogo": "Madrid"
+               },
+               "Regione di Murcia": {
+                 "capoluogo": "Murcia"
+               },
+               "Comunità Forale della Navarra": {
+                 "capoluogo": "Pamplona"
+               }
+             }
+           ]
+         }
+       ],
+       "Austria": [
+         {
+           "regioni": [
+             {
+               "Burgenland": {
+                 "capoluogo": "Eisenstadt"
+               },
+               "Carinzia": {
+                 "capoluogo": "Klagenfurt"
+               },
+               "Bassa Austria": {
+                 "capoluogo": "St. Pölten"
+               },
+               "Alta Austria": {
+                 "capoluogo": "Linz"
+               },
+               "Salisburghese": {
+                 "capoluogo": "Salisburgo"
+               },
+               "Stiria": {
+                 "capoluogo": "Graz"
+               },
+               "Tirolo": {
+                 "capoluogo": "Innsbruck"
+               },
+               "Vorarlberg": {
+                 "capoluogo": "Bregenz"
+               },
+               "Vienna": {
+                 "capoluogo": "Città federata"
+               }
+             }
+           ]
+         }
+       ],
+       "Repubblica Ceca": [
+         {
+           "regioni": [
+             {
+               "Praga": {
+                 "capoluogo": "Praga"
+               },
+               "Boemia Meridionale": {
+                 "capoluogo": "České Budějovice"
+               },
+               "Moravia Meridionale": {
+                 "capoluogo": "Brno"
+               },
+               "Regione di Karlovy Vary": {
+                 "capoluogo": "Karlovy Vary"
+               },
+               "Regione di Hradec Králové": {
+                 "capoluogo": "Hradec Králové"
+               },
+               "Regione di Liberec": {
+                 "capoluogo": "Liberec"
+               },
+               "Moravia-Slesia": {
+                 "capoluogo": "Ostrava"
+               },
+               "Regione di Olomouc": {
+                 "capoluogo": "Olomouc"
+               },
+               "Regione di Pardubice": {
+                 "capoluogo": "Pardubice"
+               },
+               "Regione di Plzeň": {
+                 "capoluogo": "Plzeň"
+               },
+               "Boemia Centrale": {
+                 "capoluogo": "Praga"
+               },
+               "Regione di Ústí nad Labem": {
+                 "capoluogo": "Ústí nad Labem"
+               },
+               "Regione di Vysočina": {
+                 "capoluogo": "Jihlava"
+               },
+               "Regione di Zlín": {
+                 "capoluogo": "Zlín"
+               }
+             }
+           ]
+         }
+       ],
+       "Portogallo": [
+         {
+           "regioni": [
+             {
+               "Distretto di Aveiro": {
+                 "capoluogo": "Aveiro"
+               },
+               "Distretto di Beja": {
+                 "capoluogo": "Beja"
+               },
+               "Distretto di Braga": {
+                 "capoluogo": "Braga"
+               },
+               "Distretto di Braganza": {
+                 "capoluogo": "Braganza"
+               },
+               "Distretto di Castelo Branco": {
+                 "capoluogo": "Castelo Branco"
+               },
+               "Distretto di Coimbra": {
+                 "capoluogo": "Coimbra"
+               },
+               "Distretto di Évora": {
+                 "capoluogo": "Évora"
+               },
+               "Distretto di Faro": {
+                 "capoluogo": "Faro"
+               },
+               "Distretto di Guarda": {
+                 "capoluogo": "Guarda"
+               },
+               "Distretto di Leiria": {
+                 "capoluogo": "Leiria"
+               },
+               "Distretto di Lisbona": {
+                 "capoluogo": "Praga"
+               },
+               "Distretto di Portalegre": {
+                 "capoluogo": "Portalegre"
+               },
+               "Distretto di Porto": {
+                 "capoluogo": "Porto"
+               },
+               "Distretto di Santarém": {
+                 "capoluogo": "Santarém"
+               },
+               "Distretto di Setúbal": {
+                 "capoluogo": "Setúbal"
+               },
+               "Distretto di Viana do Castelo": {
+                 "capoluogo": "Viana do Castelo"
+               },
+               "Distretto di Vila Real": {
+                 "capoluogo": "Vila Real"
+               },
+               "Distretto di Viseu": {
+                 "capoluogo": "Viseu"
+               }
+             }
+           ]
+         }
+       ],
+       "Ungheria": [
+         {
+           "regioni": [
+             {
+               "Ungheria Settentrionale": {
+                 "capoluogo": "Miskolc"
+               },
+               "Grande Pianura Settentrionale": {
+                 "capoluogo": "Debrecen"
+               },
+               "Grande Pianura Meridionale": {
+                 "capoluogo": "Seghedino"
+               },
+               "Ungheria Centrale": {
+                 "capoluogo": "Budapest"
+               },
+               "Transdanubio Centrale": {
+                 "capoluogo": "Székesfehérvár"
+               },
+               "Transdanubio Occidentale": {
+                 "capoluogo": "Győr"
+               },
+               "Transdanubio Meridionale": {
+                 "capoluogo": "Pécs"
+               }
+             }
+           ]
+         }
+       ],
+       "Grecia": [
+         {
+           "regioni": [
+             {
+               "Attica": {
+                 "capoluogo": "Atene"
+               },
+               "Creta": {
+                 "capoluogo": "Candia"
+               },
+               "Egeo Meridionale": {
+                 "capoluogo": "Siro-Ermopoli"
+               },
+               "Egeo Settentrionale": {
+                 "capoluogo": "Mitilene"
+               },
+               "Epiro": {
+                 "capoluogo": "Lamia"
+               },
+               "Grecia Occidentale": {
+                 "capoluogo": "Patrasso"
+               },
+               "Macedonia Centrale": {
+                 "capoluogo": "Salonicco"
+               },
+               "Macedonia Occidentale": {
+                 "capoluogo": "Kozani"
+               },
+               "Macedonia Orientale e Tracia": {
+                 "capoluogo": "Komotini"
+               },
+               "Peloponneso": {
+                 "capoluogo": "Tripoli"
+               },
+               "Tessaglia": {
+                 "capoluogo": "Larissa"
+               }
+             }
+           ]
+         }
+       ],
+       "Irlanda": [
+         {
+           "regioni": [
+             {
+               "Contea di Carlow": {
+                 "capoluogo": "Carlow"
+               },
+               "Contea di Cavan": {
+                 "capoluogo": "Cavan"
+               },
+               "Contea di Clare": {
+                 "capoluogo": "Ennis"
+               },
+               "Contea di Cork": {
+                 "capoluogo": "Cork"
+               },
+               "Contea di Donegal": {
+                 "capoluogo": "Lifford"
+               },
+               "Contea di Dún Laoghaire-Rathdown": {
+                 "capoluogo": "Dún Laoghaire"
+               },
+               "Contea di Fingal": {
+                 "capoluogo": "Swords"
+               },
+               "Contea di Galway": {
+                 "capoluogo": "Galway"
+               },
+               "Contea di Kerry": {
+                 "capoluogo": "Tralee"
+               },
+               "Contea di Kildare": {
+                 "capoluogo": "Naas"
+               },
+               "Contea di Kilkenny": {
+                 "capoluogo": "Kilkenny"
+               },
+               "Contea di Laois": {
+                 "capoluogo": "Port Laoise"
+               },
+               "Contea di Leitrim": {
+                 "capoluogo": "Carrick-on-Shannon"
+               },
+               "Contea di Longford": {
+                 "capoluogo": "Longford"
+               },
+               "Contea di Louth": {
+                 "capoluogo": "Dundalk"
+               },
+               "Contea di Mayo": {
+                 "capoluogo": "Castlebar"
+               },
+               "Contea di Meath": {
+                 "capoluogo": "Navan"
+               },
+               "Contea di Monaghan": {
+                 "capoluogo": "Monaghan"
+               },
+               "Contea di Offaly": {
+                 "capoluogo": "Tullamore"
+               },
+               "Contea di Roscommon": {
+                 "capoluogo": "Roscommon"
+               },
+               "Contea di Sligo": {
+                 "capoluogo": "Sligo"
+               },
+               "Contea di South Dublin": {
+                 "capoluogo": "Tallaght"
+               },
+               "Contea di Tipperary": {
+                 "capoluogo": "Nenagh"
+               },
+               "Contea di Waterford": {
+                 "capoluogo": "Dungarvan"
+               },
+               "Contea di Westmeath": {
+                 "capoluogo": "Mullingar"
+               },
+               "Contea di Wexford": {
+                 "capoluogo": "Wexford"
+               },
+               "Contea di Wicklow": {
+                 "capoluogo": "Wicklow"
+               },
+               "Contea di Dublino": {
+                 "capoluogo": ""
+               }
+             }
+           ]
+         }
+       ],
+       "Lituania": [
+         {
+           "regioni": [
+             {
+               "Aukštaitija ": {
+                 "capoluogo": "Panevėžys"
+               },
+               "Dzūkija": {
+                 "capoluogo": "Alytus"
+               },
+               "Lituania minore": {
+                 "capoluogo": "Šilutė "
+               },
+               "Samogizia": {
+                 "capoluogo": "Telšiai"
+               },
+               "Sudovia": {
+                 "capoluogo": "Marijampolė"
+               }
+             }
+           ]
+         }
+       ],
+       "Lussemburgo": [
+         {
+           "regioni": [
+             {
+               "Clervaux": {
+                 "capoluogo": "Clervaux"
+               },
+               "Diekirch": {
+                 "capoluogo": "Diekirch"
+               },
+               "Redange": {
+                 "capoluogo": "Redange"
+               },
+               "Vianden": {
+                 "capoluogo": "Vianden."
+               },
+               "Wiltz": {
+                 "capoluogo": "Wiltz"
+               },
+               "Echternach": {
+                 "capoluogo": "Echternach"
+               },
+               "Grevenmacher": {
+                 "capoluogo": "Grevenmacher"
+               },
+               "Remich": {
+                 "capoluogo": "Remich"
+               },
+               "Capellen": {
+                 "capoluogo": "Capellen"
+               },
+               "Esch-sur-Alzette": {
+                 "capoluogo": "Esch-sur-Alzette"
+               },
+               "Cantone di Lussemburgo": {
+                 "capoluogo": "Lussemburgo"
+               }
+             }
+           ]
+         }
+       ],
+       "Bulgaria": [
+         {
+           "regioni": [
+             {
+               "Distretto di Blagoevgrad": {
+                 "capoluogo": "Blagoevgrad"
+               },
+               "Distretto di Burgas": {
+                 "capoluogo": "Burgas"
+               },
+               "Distretto di Dobrič": {
+                 "capoluogo": "Dobrič"
+               },
+               "Distretto di Gabrovo": {
+                 "capoluogo": "Gabrovo."
+               },
+               "Distretto di Haskovo": {
+                 "capoluogo": "Haskovo"
+               },
+               "Distretto di Jambol": {
+                 "capoluogo": "Jambol"
+               },
+               "Distretto di Kărdžali": {
+                 "capoluogo": "Kărdžali"
+               },
+               "Distretto di Kjustendil": {
+                 "capoluogo": "Kjustendil"
+               },
+               "Distretto di Loveč": {
+                 "capoluogo": "Loveč"
+               },
+               "Distretto di Pernik": {
+                 "capoluogo": "Pernik"
+               },
+               "Distretto di Pazardžik": {
+                 "capoluogo": "Pazardžik"
+               },
+               "Distretto di Pleven": {
+                 "capoluogo": "Pleven"
+               },
+               "Distretto di Plovdiv": {
+                 "capoluogo": "Plovdiv"
+               },
+               "Distretto di Razgrad": {
+                 "capoluogo": "Razgrad"
+               },
+               "Distretto di Ruse": {
+                 "capoluogo": "Ruse"
+               },
+               "Distretto di Silistra": {
+                 "capoluogo": "Silistra"
+               },
+               "Distretto di Sliven": {
+                 "capoluogo": "Sliven"
+               },
+               "Distretto di Smoljan": {
+                 "capoluogo": "Smoljan"
+               },
+               "Sofia": {
+                 "capoluogo": "Sofia"
+               },
+               "Distretto di Sofia": {
+                 "capoluogo": "Sofia"
+               },
+               "Distretto di Stara Zagora": {
+                 "capoluogo": "Stara Zagora"
+               },
+               "Distretto di Šumen": {
+                 "capoluogo": "Šumen"
+               },
+               "Distretto di Tărgovište": {
+                 "capoluogo": "Tărgovište"
+               },
+               "Distretto di Veliko Tărnovo": {
+                 "capoluogo": "Veliko Tărnovo"
+               },
+               "Distretto di Vidin": {
+                 "capoluogo": "Vidin"
+               },
+               "Distretto di Vraca": {
+                 "capoluogo": "Vraca"
+               }
+             }
+           ]
+         }
+       ],
+       "Polonia": [
+         {
+           "regioni": [
+             {
+               "Voivodato della Cuiavia-Pomerania": {
+                 "capoluogo": "Bydgoszcz"
+               },
+               "Voivodato della Grande Polonia": {
+                 "capoluogo": "Poznań"
+               },
+               "Voivodato della Piccola Polonia": {
+                 "capoluogo": "Cracovia "
+               },
+               "Voivodato di Łódź": {
+                 "capoluogo": "Łódź"
+               },
+               "Voivodato della Bassa Slesia": {
+                 "capoluogo": "Breslavia"
+               },
+               "Voivodato di Lublino": {
+                 "capoluogo": "Lublino"
+               },
+               "Voivodato di Lubusz": {
+                 "capoluogo": "Gorzów Wielkopolski"
+               },
+               "Voivodato della Masovia": {
+                 "capoluogo": "Varsavia"
+               },
+               "Voivodato di Opole": {
+                 "capoluogo": "Opole"
+               },
+               "Voivodato della Podlachia": {
+                 "capoluogo": "Białystok"
+               },
+               "Voivodato della Pomerania": {
+                 "capoluogo": "Danzica"
+               },
+               "Voivodato della Slesia": {
+                 "capoluogo": "Katowice"
+               },
+               "Voivodato della Precarpazia": {
+                 "capoluogo": "Rzeszów"
+               },
+               "Voivodato della Santacroce": {
+                 "capoluogo": "Cracovia"
+               },
+               "Voivodato della Pomerania Occidentale": {
+                 "capoluogo": "Stettino"
+               }
+             }
+           ]
+         }
+       ],
+       "Finlandia": [
+         {
+           "regioni": [
+             {
+               "Åland": {
+                 "capoluogo": "Mariehamn"
+               },
+               "Carelia Meridionale": {
+                 "capoluogo": "Lappeenranta"
+               },
+               "Carelia Settentrionale": {
+                 "capoluogo": "Joensuu"
+               },
+               "Finlandia Centrale": {
+                 "capoluogo": "Jyväskylä"
+               },
+               "Kainuu": {
+                 "capoluogo": "Kajaani"
+               },
+               "Kanta-Häme": {
+                 "capoluogo": "Hämeenlinna"
+               },
+               "Kymenlaakso": {
+                 "capoluogo": "Kouvola"
+               },
+               "Pirkanmaa": {
+                 "capoluogo": "Tampere"
+               },
+               "Savo Meridionale": {
+                 "capoluogo": "Mikkeli"
+               },
+               "Savo Settentrionale": {
+                 "capoluogo": "Kuopio"
+               },
+               "Satakunta": {
+                 "capoluogo": "Pori"
+               },
+               "Uusimaa": {
+                 "capoluogo": "Helsinki"
+               },
+               "Varsinais-Suomi": {
+                 "capoluogo": "Turku"
+               }
+             }
+           ]
+         }
+       ],
+       "Norvegia": [
+         {
+           "regioni": [
+             {
+               "Oslo": {
+                 "capoluogo": "Oslo"
+               },
+               "Rogaland": {
+                 "capoluogo": "Stavanger"
+               },
+               "Møre og Romsdal": {
+                 "capoluogo": "Molde"
+               },
+               "Nordland": {
+                 "capoluogo": "Bodø"
+               },
+               "Viken": {
+                 "capoluogo": "Drammen"
+               },
+               "Vestfold og Telemark": {
+                 "capoluogo": "Skien"
+               },
+               "Agder": {
+                 "capoluogo": "Kristiansand"
+               },
+               "Vestland": {
+                 "capoluogo": "Bergen"
+               },
+               "Trøndelag": {
+                 "capoluogo": "Steinkjer"
+               },
+               "Troms og Finnmark": {
+                 "capoluogo": "Tromsø"
+               }
+             }
+           ]
+         }
+       ],
+       "Svezia": [
+         {
+           "regioni": [
+             {
+               "Blekinge": {
+                 "capoluogo": "Karlskrona"
+               },
+               "Dalarna": {
+                 "capoluogo": "Falun"
+               },
+               "Gotland": {
+                 "capoluogo": "Visby"
+               },
+               "Gävleborg": {
+                 "capoluogo": "Gävle"
+               },
+               "Halland": {
+                 "capoluogo": "Halmstad"
+               },
+               "Jämtland": {
+                 "capoluogo": "Östersund"
+               },
+               "Jönköping": {
+                 "capoluogo": "Jönköping"
+               },
+               "Kalmar": {
+                 "capoluogo": "Kalmar"
+               },
+               "Kronoberg": {
+                 "capoluogo": "Växjö"
+               },
+               "Norrbotten": {
+                 "capoluogo": "Luleå"
+               },
+               "Scania": {
+                 "capoluogo": "Malmö"
+               },
+               "Stoccolma": {
+                 "capoluogo": "Stoccolma"
+               },
+               "Södermanland": {
+                 "capoluogo": "Nyköping"
+               },
+               "Uppsala": {
+                 "capoluogo": "Uppsala"
+               },
+               "Värmland": {
+                 "capoluogo": "Karlstad"
+               },
+               "Västerbotten": {
+                 "capoluogo": "Umeå"
+               },
+               "Västernorrland": {
+                 "capoluogo": "Härnösand"
+               },
+               "Västmanland": {
+                 "capoluogo": "Västerås"
+               },
+               "Västra Götaland": {
+                 "capoluogo": "Göteborg"
+               },
+               "Örebro": {
+                 "capoluogo": "Örebro"
+               },
+               "Östergötland": {
+                 "capoluogo": "Linköping"
+               }
+             }
+           ]
+         }
+       ],
+       "Danimarca": [
+         {
+           "regioni": [
+             {
+               "Hovedstaden": {
+                 "capoluogo": "Hillerød"
+               },
+               "Jutland Centrale": {
+                 "capoluogo": "Viborg"
+               },
+               "Jutland Settentrionale": {
+                 "capoluogo": "Aalborg"
+               },
+               "Selandia": {
+                 "capoluogo": "Sorø"
+               },
+               "Danimarca Meridionale": {
+                 "capoluogo": "Vejle"
+               }
+             }
+           ]
+         }
+       ],
+       "Belgio": [
+         {
+           "regioni": [
+             {
+               "Provincia di Anversa": {
+                 "capoluogo": "Anversa"
+               },
+               "Brabante Fiammingo": {
+                 "capoluogo": "Lovanio"
+               },
+               "Fiandre Occidentali": {
+                 "capoluogo": "Bruges"
+               },
+               "Brabante Vallone": {
+                 "capoluogo": "Wavre"
+               },
+               "Fiandre Orientali": {
+                 "capoluogo": "Gand"
+               },
+               "Hainaut": {
+                 "capoluogo": "Mons"
+               },
+               "Provincia di Liegi": {
+                 "capoluogo": "Liegi"
+               },
+               "Limburgo": {
+                 "capoluogo": "Hasselt"
+               },
+               "Lussemburgo": {
+                 "capoluogo": "Arlon"
+               },
+               "Provincia di Namur": {
+                 "capoluogo": "Namur"
+               }
+             }
+           ]
+         }
+       ],
+       "Olanda": [
+         {
+           "regioni": [
+             {
+               "Limburgo": {
+                 "capoluogo": "Maastricht"
+               },
+               "Brabante Settentrionale": {
+                 "capoluogo": "Den Bosch"
+               },
+               "Zelanda": {
+                 "capoluogo": "Middelburg"
+               },
+               "Olanda Meridionale": {
+                 "capoluogo": "L'Aia"
+               },
+               "Olanda Settentrionale": {
+                 "capoluogo": "Haarlem"
+               },
+               "Utrecht": {
+                 "capoluogo": "Utrecht"
+               },
+               "Gheldria": {
+                 "capoluogo": "Arnhem"
+               },
+               "Flevoland": {
+                 "capoluogo": "Lelystad"
+               },
+               "Overijssel": {
+                 "capoluogo": "Zwolle"
+               },
+               "Drenthe": {
+                 "capoluogo": "Assen"
+               },
+               "Frisia": {
+                 "capoluogo": "Leeuwarden"
+               },
+               "Groninga ": {
+                 "capoluogo": "Groninga"
+               }
+             }
+           ]
+         }
+       ]
+     }
+   ]
+ }
