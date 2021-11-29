@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lettere SYSTEM "lettere.dtd">
+
+<lettere>
+    <lettera>
+        <mittente>
+            <nome_m>Giulio</nome_m>
+            <cognome_m>Pimenoff Verdolin</cognome_m>
+            <indirizzo_m>Via dei gigli 45</indirizzo_m>
+            <cf_m>PMNGLI03P29</cf_m>
+            <p_iva_m>no</p_iva_m>
+        </mittente>
+        <data>
+            <giorno>27</giorno>
+            <mese>12</mese>
+            <anno>2021</anno>
+        </data>
+        <destinatario>
+            <nome_d>Bilal</nome_d>
+            <cognome_d>Nazih</cognome_d>
+            <indirizzo_d>Via Mazzini 29</indirizzo_d>
+            <cf_d>BLLNZ03P34</cf_d>
+            <p_iva_d>no</p_iva_d>
+        </destinatario>
+        <oggetto>Saluti</oggetto>
+        <forma_di_saluto>Carissimo</forma_di_saluto>
+        <corpo_del_testo>
+            <paragrafo>Come stai?</paragrafo>
+        </corpo_del_testo>
+        <saluti_finali>Saluti</saluti_finali>
+        <firma titolo="Sgn.">Giulio Pimenoff Verdolin</firma>
+    </lettera>
+    <lettera>
+        <mittente>
+            <nome_m>Bilal</nome_m>
+            <cognome_m>Nazih</cognome_m>
+            <indirizzo_m>Via Mazzini 29</indirizzo_m>
+            <cf_m>BLLNZ03P34</cf_m>
+            <p_iva_m>no</p_iva_m>
+        </mittente>
+        <data>
+            <giorno>27</giorno>
+            <mese>12</mese>
+            <anno>2021</anno>
+        </data>
+        <destinatario>
+            <nome_d>Giulio</nome_d>
+            <cognome_d>Pimenoff Verdolin</cognome_d>
+            <indirizzo_d>Via dei gigli 45</indirizzo_d>
+            <cf_d>PMNGLI03P29</cf_d>
+            <p_iva_d>no</p_iva_d>
+        </destinatario>
+        <oggetto>Ricambio saluti</oggetto>
+        <forma_di_saluto>Carissimo</forma_di_saluto>
+        <corpo_del_testo>
+            <paragrafo>Bene, tu?</paragrafo>
+        </corpo_del_testo>
+        <saluti_finali>Saluti</saluti_finali>
+        <firma titolo="Sgn.">Bilal Nazih</firma>
+    </lettera>
+</lettere>

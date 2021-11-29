@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport"
+         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Lettere</title>
+
+   <script type="application/javascript" >
+      document.addEventListener("DOMContentLoaded", _ => {
+         const data = {
+            "lettere": [
+               {
+                  "forma_di_saluto": "Carissimo",
+                  "mittente": {
+                     "nome_m": "Giulio",
+                     "p_iva_m": "no",
+                     "indirizzo_m": "Via dei gigli 45",
+                     "cognome_m": "Pimenoff Verdolin",
+                     "cf_m": "PMNGLI03P29"
+                  },
+                  "data": {
+                     "anno": 2021,
+                     "giorno": 27,
+                     "mese": 12
+                  },
+                  "oggetto": "Saluti",
+                  "saluti_finali": "Saluti",
+                  "firma": {
+                     "titolo": "Sgn.",
+                     "content": "Giulio Pimenoff Verdolin"
+                  },
+                  "corpo_del_testo": {
+                     "paragrafo": "Come stai?"
+                  },
+                  "destinatario": {
+                     "indirizzo_d": "Via Mazzini 29",
+                     "cognome_d": "Nazih",
+                     "cf_d": "BLLNZ03P34",
+                     "nome_d": "Bilal",
+                     "p_iva_d": "no"
+                  }
+               },
+               {
+                  "forma_di_saluto": "Carissimo",
+                  "mittente": {
+                     "nome_m": "Bilal",
+                     "p_iva_m": "no",
+                     "indirizzo_m": "Via Mazzini 29",
+                     "cognome_m": "Nazih",
+                     "cf_m": "BLLNZ03P34"
+                  },
+                  "data": {
+                     "anno": 2021,
+                     "giorno": 27,
+                     "mese": 12
+                  },
+                  "oggetto": "Ricambio saluti",
+                  "saluti_finali": "Saluti",
+                  "firma": {
+                     "titolo": "Sgn.",
+                     "content": "Bilal Nazih"
+                  },
+                  "corpo_del_testo": {
+                     "paragrafo": "Bene, tu?"
+                  },
+                  "destinatario": {
+                     "indirizzo_d": "Via dei gigli 45",
+                     "cognome_d": "Pimenoff Verdolin",
+                     "cf_d": "PMNGLI03P29",
+                     "nome_d": "Giulio",
+                     "p_iva_d": "no"
+                  }
+               }
+            ]
+         }
+
+         const numeroLettere = data.lettere.length;
+         let lettera = parseInt(prompt(`Quale lettera si vuole vedere? (1 - ${numeroLettere})`))
+         while (isNaN(lettera) || lettera < 1 || lettera > numeroLettere) {
+            alert(`Inserire un numero valido (1 - ${numeroLettere})`)
+            lettera = parseInt(prompt(`Quale lettera si vuole vedere? (1 - ${numeroLettere})`))
+         }
+
+         lettera--
+
+         const chiavi = Object.keys(data.lettere[0])
+         const stringaChiavi = chiavi.join("\n")
+
+         let dettaglio = prompt("Quale dettagli si vuole visualizzare?\n" + stringaChiavi)
+         while (!chiavi.includes(dettaglio)) {
+            alert("Inserire un dettaglio valido")
+            dettaglio = prompt("Quale dettagli si vuole visualizzare?\n" + stringaChiavi)
+         }
+
+         console.log(dettaglio)
+         console.log(typeof data.lettere[lettera])
+         console.log("stringa: " + data.lettere[lettera][dettaglio])
+
+         document.getElementById("dettaglio").innerText = JSON.stringify(data.lettere[lettera][dettaglio])
+      });
+   </script>
+</head>
+<body>
+   <h1>Dettaglio selezionato</h1>
+   <p id="dettaglio"></p>
+</body>
+</html>
