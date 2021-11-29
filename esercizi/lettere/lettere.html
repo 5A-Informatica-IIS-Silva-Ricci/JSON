@@ -85,20 +85,16 @@
 
          lettera--
 
-         const chiavi = Object.keys(data.lettere[0])
+         const chiavi = Object.keys(data.lettere[lettera])
          const stringaChiavi = chiavi.join("\n")
 
-         let dettaglio = prompt("Quale dettagli si vuole visualizzare?\n" + stringaChiavi)
-         while (!chiavi.includes(dettaglio)) {
+         let dettaglio = prompt("Quale dettagli si vuole visualizzare?\ntutti\n" + stringaChiavi)
+         while (!chiavi.includes(dettaglio) && dettaglio !== "tutti") {
             alert("Inserire un dettaglio valido")
-            dettaglio = prompt("Quale dettagli si vuole visualizzare?\n" + stringaChiavi)
+            dettaglio = prompt("Quale dettagli si vuole visualizzare?\ntutti\n" + stringaChiavi)
          }
 
-         console.log(dettaglio)
-         console.log(typeof data.lettere[lettera])
-         console.log("stringa: " + data.lettere[lettera][dettaglio])
-
-         document.getElementById("dettaglio").innerText = JSON.stringify(data.lettere[lettera][dettaglio])
+         document.getElementById("dettaglio").innerText = JSON.stringify(dettaglio === "tutti" ? data.lettere[lettera] : data.lettere[lettera][dettaglio])
       });
    </script>
 </head>
