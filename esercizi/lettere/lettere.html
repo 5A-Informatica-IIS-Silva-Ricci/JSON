@@ -94,12 +94,14 @@
             dettaglio = prompt("Quale dettagli si vuole visualizzare?\ntutti\n" + stringaChiavi)
          }
 
+         const risultato = `Stai visualizzando le informazioni relative all'articolo ${numeroLettere}`
+
          document.getElementById("dettaglio").innerText = JSON.stringify(dettaglio === "tutti" ? data.lettere[lettera] : data.lettere[lettera][dettaglio])
       });
    </script>
 </head>
 <body>
    <h1>Dettaglio selezionato</h1>
-   <p id="dettaglio"></p>
+   <h3 id="dettaglio"></h3>
 </body>
 </html>

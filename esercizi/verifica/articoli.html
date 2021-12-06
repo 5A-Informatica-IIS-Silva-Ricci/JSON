@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Gestore articoli</title>
+   <script type="application/javascript">
+      document.addEventListener("DOMContentLoaded", () => {
+         const dbArticoli = {
+            "articoli": [
+               {
+                  "titolo": "Verifica di JSON",
+                  "sottotitolo": "Cosa comprende la verifica di JSON",
+                  "intestazione": "In questo articolo viene spiegato cosa comprende la verifica di JSON",
+                  "corpo": "Sarà necessario creare un json partendo da un dtd e successivamente interrogarlo attraverso javascript",
+                  "note": "Nessuna nota",
+                  "autori": [
+                     {
+                        "nome": "Bilal",
+                        "cognome": "Nazih",
+                        "eta": 18
+                     },
+                     {
+                        "nome": "Luca",
+                        "cognome": "Saturnini",
+                        "eta": 18
+                     }
+                  ],
+                  "data": {
+                     "giorno": 6,
+                     "mese": 12,
+                     "anno": 2021
+                  },
+                  "curatore": "Giulio Pimenoff Verdolin",
+               },
+               {
+                  "titolo": "Verifica di PHP",
+                  "sottotitolo": "Cosa comprende la verifica di PHP",
+                  "intestazione": "In questo articolo viene spiegato cosa comprende la verifica di PHP",
+                  "corpo": "Sarà necessario creare un gestionale per un qualche tipo di organizzazione e saper implementare un sistema CRUD",
+                  "note": "È necessaria anche la conoscenza di SQL",
+                  "autori": [
+                     {
+                        "nome": "Flavio",
+                        "cognome": "Finazzo",
+                        "eta": 18
+                     },
+                     {
+                        "nome": "Luca",
+                        "cognome": "Damaschetti",
+                        "eta": 17
+                     }
+                  ],
+                  "data": {
+                     "giorno": 6,
+                     "mese": 12,
+                     "anno": 2021
+                  },
+                  "curatore": "Mario Bottino",
+               },
+               {
+                  "titolo": "Verifica di Matematica",
+                  "sottotitolo": "Cosa comprende la verifica di Matematica",
+                  "intestazione": "In questo articolo viene spiegato cosa comprende la verifica di Matematica",
+                  "corpo": "Sarà necessario saper svolgere uno studio di funzione completo e conoscere inoltre i principali teoremi ad esso relativi",
+                  "note": "Ci saranno probabilmente 2 esercizi di studio di funzione",
+                  "autori": [
+                     {
+                        "nome": "Luca",
+                        "cognome": "Sambugaro",
+                        "eta": 18
+                     },
+                     {
+                        "nome": "Filippo",
+                        "cognome": "Marchesini",
+                        "eta": 17
+                     }
+                  ],
+                  "data": {
+                     "giorno": 6,
+                     "mese": 12,
+                     "anno": 2021
+                  },
+                  "curatore": "Samuele Pauletto",
+               },
+            ]
+         }
+
+         try {
+            // Chiedo quale articolo si vuole visualizzare
+            const numArticoli = dbArticoli.articoli.length
+            let indiceArticolo = parseInt(prompt(`Quale articolo si vuole vedere?\nDigita un numero da 1 a ${numArticoli}`))
+            // Finche non mi viene dato un numero tra 1 ed il numero di articoli mostro un messaggio di errore e richiedo il numero
+            while (isNaN(indiceArticolo) || indiceArticolo < 1 || indiceArticolo > numArticoli) {
+               alert(`Non è stato inserito un numero valido tra 1 - ${numArticoli})`)
+               indiceArticolo = parseInt(prompt(`Quale articolo si vuole vedere?\nDigita un numero da 1 a ${numArticoli}`))
+            }
+
+            // Riporto l'indice dell'articolo al valore corretto siccome gli array partono da 0
+            indiceArticolo--
+
+            // Prendo tutti i possibili dettagli (chiavi) dell'oggetto dell'articolo
+            const chiavi = Object.keys(dbArticoli.articoli[indiceArticolo])
+            // Creo una stringa per mostrarli all'utente
+            const stringaChiavi = chiavi.map((valore, indice) => `${indice+1} - ${valore}`).join("\n")
+
+            // Chiedo un numero corrispondente al dettaglio da visualizzare
+            let indiceDettaglio = parseInt(prompt(`Digitare il numero del dettaglio da visualizzare?\n${stringaChiavi}\n${chiavi.length + 1} - TUTTI`))
+            while (isNaN(indiceDettaglio) || indiceDettaglio < 1 || indiceDettaglio > (chiavi.length + 1)) {
+               alert("Non è stato inserito un numero di dettaglio valido, riprova")
+               indiceDettaglio = prompt(`Digitare il numero del dettaglio da visualizzare?\n${stringaChiavi}\n${chiavi.length + 1} - TUTTI`)
+            }
+
+            // Prendo il nome del dettaglio (chiave) attraverso il numero ricevuto in input
+            const nomeDettaglio = indiceDettaglio === chiavi.length + 1 ? null : chiavi[indiceDettaglio-1]
+
+            // Inizializzo la stringa del risultato da visualizzare
+            let risultato = `Stai visualizzando le informazioni relative all'articolo ${indiceArticolo + 1}<br><br>`
+
+            if (nomeDettaglio === null) {
+               // Sono stati richiesti tutti i dettagli
+               risultato += `Ecco tutti i dettagli dell'articolo:<br><br>` + convertiJSONaStringa(dbArticoli.articoli[indiceArticolo])
+            } else {
+               // È stato richiesto un singolo dettaglio
+               const contenutoDettaglio = dbArticoli.articoli[indiceArticolo][nomeDettaglio]
+               risultato += typeof contenutoDettaglio === "object" ? `${maiusc(nomeDettaglio)}:<br>` + convertiJSONaStringa(contenutoDettaglio) : `${maiusc(nomeDettaglio)}: ${contenutoDettaglio}`
+            }
+
+            // Visualizzo il risultato
+            document.getElementById("info").innerHTML = risultato
+         } catch (e) {
+            console.log(e)
+            mostraErrore("Qualcosa è andato storto")
+         }
+      })
+
+      function mostraErrore(errore) {
+         document.getElementById("titolo").innerText = "Errore!"
+         document.getElementById("info").innerHTML = errore + "<br><br><a href='articoli.html'>Clicca qui per riprovare</a>"
+      }
+
+      // Mette la prima lettera di una stringa maiuscola
+      function maiusc(stringa) {
+         return stringa.toString().charAt(0).toUpperCase() + stringa.toString().slice(1);
+      }
+
+      // Converte un oggetto in una stringa ben formattata
+      function convertiJSONaStringa(oggetto) {
+         // Prendo tutte le chiavi dell'oggetto
+         const chiavi = Object.keys(oggetto)
+         // Una per una la analizzo ed alla fine unisco il contenuto analizzato con un <br>
+         return chiavi.map(chiave => {
+            if (typeof oggetto[chiave] === "object") {
+               // Se il valore corrispondente a quella chiave è un altro oggetto allora mostro il nome di quell'oggetto + il suo contenuto elaborato con questa stessa funzione
+               // Inoltre se la chiave è un numero significa che è l'indice di un array quindi lo incremento di 1 visto che gli indici partono da 0 ma l'utente conta da 1
+               return `${maiusc(isNaN(parseInt(chiave)) ? chiave : (parseInt(chiave) + 1))}:<br>` + convertiJSONaStringa(oggetto[chiave]) + "<br>"
+            } else {
+               // Altrimenti mostro semplicemente il nome della chiave ed il suo valore
+               return `${maiusc(chiave)}: ${oggetto[chiave].toString()}`
+            }
+         }).join("<br>")
+      }
+   </script>
+</head>
+<body>
+<h1 id="titolo">ARTICOLI</h1>
+<h3 id="info"></h3>
+</body>
+</html>
